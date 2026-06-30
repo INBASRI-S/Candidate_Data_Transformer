@@ -1,0 +1,20 @@
+{
+  "candidate_name": null,
+  "contact_emails": null,
+  "contact_numbers": null,
+  "skills": [
+    "AWS",
+    "Agile",
+    "CSS",
+    "Docker",
+    "FastAPI",
+    "Git",
+    "HTML",
+    "JavaScript",
+    "Kubernetes",
+    "PostgreSQL",
+    "Python",
+    "SQL",
+    "TypeScript"
+  ]
+}

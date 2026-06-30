@@ -1,0 +1,31 @@
+{
+  "candidate_name": null,
+  "contact_emails": null,
+  "contact_numbers": null,
+  "country": null,
+  "skills": [
+    "HTML",
+    "JavaScript",
+    "Python"
+  ],
+  "experience": null,
+  "education": null,
+  "overall_confidence": 0.1125,
+  "data_provenance": [
+    {
+      "field_path": "skills.HTML",
+      "source_type": "github",
+      "source_detail": "GitHub username: INBASRI-S"
+    },
+    {
+      "field_path": "skills.JavaScript",
+      "source_type": "github",
+      "source_detail": "GitHub username: INBASRI-S"
+    },
+    {
+      "field_path": "skills.Python",
+      "source_type": "github",
+      "source_detail": "GitHub username: INBASRI-S"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "candidate_name": "Dhayanandham",
+  "contact_emails": null,
+  "contact_numbers": null,
+  "skills": [
+    "HTML",
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "education": null,
+  "experience": null,
+  "country": "Global",
+  "overall_confidence": 0.3,
+  "field_confidences": {
+    "full_name": 0.75,
+    "country": 0.0,
+    "emails": 0.0,
+    "phones": 0.0,
+    "skills": 0.75,
+    "education": 0.0,
+    "experience": 0.0
+  }
+}

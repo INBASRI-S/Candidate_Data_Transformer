@@ -1,0 +1,40 @@
+{
+  "candidate_name": "Dhayanandham",
+  "contact_emails": [
+    "aarav.sharma@gmail.com",
+    "dhayanandham361@gmail.com"
+  ],
+  "contact_numbers": [
+    "+918778683374",
+    "919876543210"
+  ],
+  "skills": [
+    "CSS",
+    "Docker",
+    "Flask",
+    "Git",
+    "HTML",
+    "Java",
+    "Jupyter Notebook",
+    "MongoDB",
+    "Pandas",
+    "PostgreSQL",
+    "PyTorch",
+    "Python",
+    "SQL",
+    "Scikit-Learn",
+    "Spring Boot",
+    "TensorFlow"
+  ],
+  "education": null,
+  "experience": [
+    {
+      "company": "GitHub, Jupyter Notebook, VS Code, Eclipse, Docker, Streamlit, Kaggle.",
+      "title": "Developer Tools: Git",
+      "start_date": null,
+      "end_date": null,
+      "description": "Visualization Tools & Software: Power Bi, Tableau, Excel, Python visualization. Web Development: Html, css, Servlet, Jsp,Fast API, Streamlit"
+    }
+  ],
+  "country": "India"
+}

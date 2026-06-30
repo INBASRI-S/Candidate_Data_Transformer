@@ -1,0 +1,230 @@
+{
+  "candidate_name": "GIRI KANNAN M P",
+  "contact_emails": [
+    "girikannan10p@gmail.com"
+  ],
+  "contact_numbers": null,
+  "country": "India",
+  "skills": [
+    "AWS",
+    "CSS",
+    "Docker",
+    "FastAPI",
+    "Flask",
+    "Git",
+    "HTML",
+    "Java",
+    "JavaScript",
+    "Jupyter Notebook",
+    "MongoDB",
+    "MySQL",
+    "NumPy",
+    "Pandas",
+    "PostgreSQL",
+    "PyTorch",
+    "Python",
+    "SQL",
+    "SQLite",
+    "Scikit-Learn",
+    "TensorFlow",
+    "TypeScript"
+  ],
+  "experience": [
+    {
+      "company": "PyTorch, TensorFlow, Scikit-learn, FastAPI, and Docker.",
+      "title": "finalist and SIH 2025 shortlistee. Proficient in Python",
+      "start_date": null,
+      "end_date": "2025-01-01",
+      "description": null
+    }
+  ],
+  "education": [
+    {
+      "institution": "Karpagam College of Engineering",
+      "degree": "Bachelor of Technology - Artificial Intelligence and Data Science, CGPA:8.33",
+      "field_of_study": null,
+      "start_date": "2023-01-01",
+      "end_date": "Present"
+    },
+    {
+      "institution": "Holy Children Matric Hr Sec School Jun 2021 - Mar 2023",
+      "degree": null,
+      "field_of_study": null,
+      "start_date": "2021-01-01",
+      "end_date": "2023-01-01"
+    }
+  ],
+  "overall_confidence": 0.7462,
+  "data_provenance": [
+    {
+      "field_path": "full_name",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "first_name",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "last_name",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "country",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "emails.girikannan10p@gmail.com",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "emails.girikannan10p@gmail.com",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    },
+    {
+      "field_path": "emails.girikannan10p@gmail.com",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_final.csv"
+    },
+    {
+      "field_path": "skills.AWS",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.CSS",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.Docker",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.FastAPI",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.Flask",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.Git",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.HTML",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.HTML",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    },
+    {
+      "field_path": "skills.Java",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.JavaScript",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    },
+    {
+      "field_path": "skills.Jupyter Notebook",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    },
+    {
+      "field_path": "skills.MongoDB",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.MySQL",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.NumPy",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.Pandas",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.PostgreSQL",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.PyTorch",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.Python",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.Python",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    },
+    {
+      "field_path": "skills.SQL",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.SQLite",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.Scikit-Learn",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.TensorFlow",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "skills.TypeScript",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    },
+    {
+      "field_path": "education.Karpagam College of Engineering",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "education.Holy Children Matric Hr Sec School Jun 2021 - Mar 2023",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    },
+    {
+      "field_path": "experience.PyTorch, TensorFlow, Scikit-learn, FastAPI, and Docker.",
+      "source_type": "resume",
+      "source_detail": "GiriKannan-Machinelearning_Engineer (1).pdf"
+    }
+  ]
+}

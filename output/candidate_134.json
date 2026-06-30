@@ -1,0 +1,150 @@
+{
+  "candidate_name": "INBASRI S",
+  "contact_emails": [
+    "inbasri0706@gmail.com"
+  ],
+  "contact_numbers": [
+    "+916369944205"
+  ],
+  "country": "India",
+  "skills": [
+    "CSS",
+    "Express.js",
+    "Git",
+    "HTML",
+    "Java",
+    "JavaScript",
+    "MongoDB",
+    "MySQL",
+    "Node.js",
+    "React",
+    "SQL"
+  ],
+  "experience": null,
+  "education": [
+    {
+      "institution": "B.E, Computer Science and Technology, Karpagam College of Engineering 2027",
+      "degree": null,
+      "field_of_study": null,
+      "start_date": null,
+      "end_date": "2027-01-01"
+    },
+    {
+      "institution": "Affiliated with Anna University CGPA: 8.8 / 10.00",
+      "degree": null,
+      "field_of_study": null,
+      "start_date": null,
+      "end_date": "2023-01-01"
+    },
+    {
+      "institution": "Secondary School - State Board Percentage: 91%",
+      "degree": null,
+      "field_of_study": null,
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "overall_confidence": 0.7252,
+  "data_provenance": [
+    {
+      "field_path": "full_name",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "first_name",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "last_name",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "country",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "emails.inbasri0706@gmail.com",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "emails.inbasri0706@gmail.com",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_final.csv"
+    },
+    {
+      "field_path": "skills.CSS",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "skills.Express.js",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "skills.Git",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "skills.HTML",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "skills.Java",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "skills.JavaScript",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "skills.MongoDB",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "skills.MySQL",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "skills.Node.js",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "skills.React",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "skills.SQL",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "education.B.E, Computer Science and Technology, Karpagam College of Engineering 2027",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "education.Affiliated with Anna University CGPA: 8.8 / 10.00",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    },
+    {
+      "field_path": "education.Secondary School - State Board Percentage: 91%",
+      "source_type": "resume",
+      "source_detail": "RESUME_PDF1.pdf"
+    }
+  ]
+}

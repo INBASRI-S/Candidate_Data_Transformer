@@ -1,0 +1,158 @@
+{
+  "candidate_name": "NAVEEN RAJ K",
+  "contact_emails": [
+    "naveenmadhan86@gmail.com"
+  ],
+  "contact_numbers": [
+    "+917511199896"
+  ],
+  "country": "India",
+  "skills": [
+    "CSS",
+    "Docker",
+    "Git",
+    "HTML",
+    "Java",
+    "Jupyter Notebook",
+    "MySQL",
+    "NumPy",
+    "Pandas",
+    "PostgreSQL",
+    "PyTorch",
+    "Python",
+    "R",
+    "SQL",
+    "Scikit-Learn",
+    "TensorFlow"
+  ],
+  "experience": null,
+  "education": null,
+  "overall_confidence": 0.6512,
+  "data_provenance": [
+    {
+      "field_path": "full_name",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "first_name",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "last_name",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "country",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_final.csv"
+    },
+    {
+      "field_path": "emails.naveenmadhan86@gmail.com",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "emails.naveenmadhan86@gmail.com",
+      "source_type": "github",
+      "source_detail": "GitHub username: NRedits2005"
+    },
+    {
+      "field_path": "emails.naveenmadhan86@gmail.com",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_final.csv"
+    },
+    {
+      "field_path": "skills.CSS",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "skills.Docker",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "skills.Git",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "skills.HTML",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "skills.HTML",
+      "source_type": "github",
+      "source_detail": "GitHub username: NRedits2005"
+    },
+    {
+      "field_path": "skills.Java",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "skills.Jupyter Notebook",
+      "source_type": "github",
+      "source_detail": "GitHub username: NRedits2005"
+    },
+    {
+      "field_path": "skills.MySQL",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "skills.NumPy",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "skills.Pandas",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "skills.PostgreSQL",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "skills.PyTorch",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "skills.Python",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "skills.Python",
+      "source_type": "github",
+      "source_detail": "GitHub username: NRedits2005"
+    },
+    {
+      "field_path": "skills.R",
+      "source_type": "github",
+      "source_detail": "GitHub username: NRedits2005"
+    },
+    {
+      "field_path": "skills.SQL",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "skills.Scikit-Learn",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    },
+    {
+      "field_path": "skills.TensorFlow",
+      "source_type": "resume",
+      "source_detail": "Naveen Raj K Resume.pdf"
+    }
+  ]
+}

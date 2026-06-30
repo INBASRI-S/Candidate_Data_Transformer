@@ -1,0 +1,14 @@
+candidate_id,full_name,email,phone,current_company,title,city,state,country,github_username,resume_file,ats_json,recruiter_notes
+C001,Aarav Sharma,aarav.sharma@gmail.com,919876543210,TCS,Software Engineer,Bangalore,Karnataka,India,aaravsharma,resume_aarav.pdf,ats_aarav.json,Strong Java backend developer with Spring Boot and Microservices.
+C002,Priya Nair,priya.nair@gmail.com,919845612378,Infosys,Data Analyst,Kochi,Kerala,India,priyanair,resume_priya.pdf,ats_priya.json,"Excellent SQL, Excel and Power BI skills."
+C003,Rohit Verma,rohit.verma@gmail.com,919998887766,Wipro,AI Engineer,Hyderabad,Telangana,India,rohitverma,resume_rohit.pdf,ats_rohit.json,Computer Vision and NLP enthusiast.
+C004,Sneha Reddy,sneha.reddy@gmail.com,919876501234,Accenture,Full Stack Developer,Chennai,Tamil Nadu,India,snehareddy,resume_sneha.pdf,ats_sneha.json,React and FastAPI developer.
+C005,Arjun Patel,arjun.patel@gmail.com,919845678912,Cognizant,Machine Learning Engineer,Pune,Maharashtra,India,arjunpatel,resume_arjun.pdf,ats_arjun.json,"TensorFlow, PyTorch and MLOps."
+C006,Dhayanandham R,dhayanandham361@gmail.com,918778683374,,B.Tech Artificial Intelligence and Data Science,Coimbatore,Tamil Nadu,India,Dhayanandham123,Dhayanandham R.pdf,ats_dhayanandham.json,"AI/ML student with FastAPI, Kafka, RAG and Computer Vision projects."
+C007,Meera Iyer,meera.iyer@gmail.com,919876543890,Zoho,Backend Developer,Chennai,Tamil Nadu,India,meeraiyer,resume_meera.pdf,ats_meera.json,Python and PostgreSQL backend developer.
+C008,Vikram Singh,vikram.singh@gmail.com,919823456789,HCL Technologies,Cloud Engineer,Noida,Uttar Pradesh,India,vikramsingh,resume_vikram.pdf,ats_vikram.json,AWS and Kubernetes engineer.
+C009,Ananya Gupta,ananya.gupta@gmail.com,919887766554,IBM,Data Scientist,Gurgaon,Haryana,India,ananyagupta,resume_ananya.pdf,ats_ananya.json,LLM and NLP practitioner.
+C010,Karan Joshi,karan.joshi@gmail.com,919812345678,Capgemini,DevOps Engineer,Mumbai,Maharashtra,India,karanjoshi,resume_karan.pdf,ats_karan.json,"CI/CD, Docker and Terraform."
+C011,INBASRI S,inbasri0706@gmail.com,916369944205,,B.E Computer Science and Technology,Tamil Nadu,Tamil Nadu,India,INBASRI-S,RESUME_PDF1.pdf,ats_inbasri.json,MERN Stack developer with AI legal document analysis project.
+C012,Naveen Raj K,naveenmadhan86@gmail.com,+917511199896,,B.Tech Artificial Intelligence and Data Science,Nagercoil,Tamil Nadu,India,NaveenRajK,Naveen Raj K Resume.pdf,ats_naveen.json,"Strong RAG, Kafka, Snowflake and LLM profile."
+C013,Giri Kannan M P,girikannan10p@gmail.com,,BYTS Services India Private Limited (Intern),B.Tech Artificial Intelligence and Data Science,Salem,Tamil Nadu,India,Girikannan2107,GiriKannan-Machinelearning_Engineer.pdf,ats_giri.json,"Computer Vision, Agentic AI and FastAPI developer."

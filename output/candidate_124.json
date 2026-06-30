@@ -1,0 +1,76 @@
+{
+  "full_name": "Girikannan .M.P",
+  "first_name": "Girikannan",
+  "last_name": ".M.P",
+  "emails": [
+    "girikannan10p@gmail.com"
+  ],
+  "phones": null,
+  "skills": [
+    "HTML",
+    "JavaScript",
+    "Jupyter Notebook",
+    "Python",
+    "TypeScript"
+  ],
+  "education": null,
+  "experience": null,
+  "country": null,
+  "overall_confidence": 0.44,
+  "field_confidences": {
+    "full_name": 0.8,
+    "country": 0.0,
+    "emails": 0.85,
+    "phones": 0.0,
+    "skills": 0.75,
+    "education": 0.0,
+    "experience": 0.0
+  },
+  "provenance": [
+    {
+      "field_path": "full_name",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    },
+    {
+      "field_path": "first_name",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    },
+    {
+      "field_path": "last_name",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    },
+    {
+      "field_path": "emails.girikannan10p@gmail.com",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    },
+    {
+      "field_path": "skills.HTML",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    },
+    {
+      "field_path": "skills.JavaScript",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    },
+    {
+      "field_path": "skills.Jupyter Notebook",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    },
+    {
+      "field_path": "skills.Python",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    },
+    {
+      "field_path": "skills.TypeScript",
+      "source_type": "github",
+      "source_detail": "GitHub username: Girikannan2107"
+    }
+  ]
+}

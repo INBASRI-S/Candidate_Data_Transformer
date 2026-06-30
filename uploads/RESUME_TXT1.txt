@@ -1,0 +1,30 @@
+INBASRI S
+Tamil Nadu, India
+LinkedIn: https://www.linkedin.com/in/inbasri-s-9b8160299/
+GitHub: https://github.com/INBASRI-S
+Email: inbasri0706@gmail.com
+Phone: +91 6369944205
+
+EDUCATION
+B.E, Computer Science and Technology, Karpagam College of Engineering (2027)
+CGPA: 8.8/10
+
+SKILLS
+Languages: C, C++, Java, JavaScript, SQL, HTML, CSS
+Soft Skills: Verbal communication, Written communication, Active listening, Presentation skills
+Technical Skills: MERN Stack, DSA, Web Development
+Developer Tools: GitHub, MySQL, Postman, Gemini API
+
+PROJECTS
+- AI-Based Legal Document Analysis System
+- MERN Stack Hotel Booking Application
+
+CERTIFICATIONS
+- NPTEL IoT and Soft Skill Development
+- Learnathon
+- Cisco Networking Essentials
+- Infosys Springboard
+- RedHat Java
+- Coursera React and Node.js
+- Linguaskills
+- IIT Spoken Tutorial HTML

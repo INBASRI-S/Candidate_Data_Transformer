@@ -1,0 +1,247 @@
+{
+  "candidate_name": "Dhayanandham R",
+  "contact_emails": [
+    "dhayanandham361@gmail.com"
+  ],
+  "contact_numbers": [
+    "+918778683374"
+  ],
+  "country": "India",
+  "skills": [
+    "AWS",
+    "CI/CD",
+    "CSS",
+    "Docker",
+    "FastAPI",
+    "Flask",
+    "Git",
+    "HTML",
+    "Java",
+    "Jupyter Notebook",
+    "Kubernetes",
+    "MongoDB",
+    "Pandas",
+    "PostgreSQL",
+    "PyTorch",
+    "Python",
+    "REST API",
+    "React",
+    "SQL",
+    "Scikit-Learn",
+    "Spring Boot",
+    "TensorFlow"
+  ],
+  "experience": [
+    {
+      "company": "CTS",
+      "title": "B.Tech Artificial Intelligence and Data Science",
+      "start_date": null,
+      "end_date": null,
+      "description": "Developed AI and data engineering projects including Uzhavar Kaappaan, TraceChild, AI-Powered B2B Data Quality Guardian, Multimodal Voice RAG Assistant and EcoPulse AI using Python, FastAPI, Flask, TensorFlow, PyTorch, Kafka, RAG and Computer Vision."
+    }
+  ],
+  "education": null,
+  "overall_confidence": 0.7811,
+  "data_provenance": [
+    {
+      "field_path": "full_name",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "first_name",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "last_name",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "country",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_updated.csv"
+    },
+    {
+      "field_path": "emails.dhayanandham361@gmail.com",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "emails.dhayanandham361@gmail.com",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_updated.csv"
+    },
+    {
+      "field_path": "skills.AWS",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "skills.CI/CD",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "skills.CSS",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.Docker",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.Docker",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "skills.FastAPI",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "skills.Flask",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.Flask",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "skills.Git",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.HTML",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.HTML",
+      "source_type": "github",
+      "source_detail": "GitHub username: Dhayanandham123"
+    },
+    {
+      "field_path": "skills.Java",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.Java",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "skills.Jupyter Notebook",
+      "source_type": "github",
+      "source_detail": "GitHub username: Dhayanandham123"
+    },
+    {
+      "field_path": "skills.Kubernetes",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "skills.MongoDB",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.Pandas",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.PostgreSQL",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.PostgreSQL",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "skills.PyTorch",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.PyTorch",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "skills.Python",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.Python",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "skills.Python",
+      "source_type": "github",
+      "source_detail": "GitHub username: Dhayanandham123"
+    },
+    {
+      "field_path": "skills.REST API",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "skills.React",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "skills.SQL",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.SQL",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "skills.Scikit-Learn",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.Spring Boot",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.Spring Boot",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "skills.TensorFlow",
+      "source_type": "resume",
+      "source_detail": "Dhayanandham R.pdf"
+    },
+    {
+      "field_path": "skills.TensorFlow",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes.txt"
+    },
+    {
+      "field_path": "experience.CTS",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_updated.csv"
+    }
+  ]
+}

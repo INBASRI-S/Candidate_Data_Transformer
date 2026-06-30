@@ -1,0 +1,6 @@
+Candidate name: Alex Mercer
+    Contact: alex.mercer@gmail.com
+    Phone: +1 555-019-2834
+    Skills: Python, FastAPI, Docker, PostgreSQL, Kubernetes, Agile
+    Location: Canada
+    Recruiter feedback: Excellent communication skills, strong backend engineering foundation. Knows Kubernetes.

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Source Candidate Data Transformer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="glow-bg"></div>
+    <div class="glow-bg glow-bg-2"></div>
+
+    <!-- 1. LANDING PAGE VIEW -->
+    <div id="landing-page" class="landing-page">
+        <header class="landing-header">
+            <div class="logo">
+                <i class="fa-solid fa-bolt-lightning logo-icon"></i>
+                <span class="logo-text">Multi-Source <span class="accent-text">Candidate Data Transformer</span></span>
+            </div>
+            <div class="badge">
+                <span class="badge-dot"></span> v2.0 Enterprise Release
+            </div>
+        </header>
+
+        <main class="landing-hero">
+            <h1 class="hero-title">Synthesize Candidate Profiles <span class="gradient-text">In Seconds</span></h1>
+            <p class="hero-subtitle">Ingest candidate spreadsheets, resumes, and Git history. Normalize profiles, resolve source conflicts, and project customized schema targets in real time.</p>
+            
+            <div class="hero-cta">
+                <button type="button" id="start-app-btn" class="btn btn-primary btn-lg pulse-button">
+                    <i class="fa-solid fa-rocket"></i> Start Synthesizing
+                </button>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-cubes-stacked"></i></div>
+                    <h3>Multi-Source Parsing</h3>
+                    <p>Extracts structure from PDF resumes, text notes, developer history, and recruiter spreadsheets.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                    <h3>Deduplication & Normalization</h3>
+                    <p>Standardizes tech skills, country strings, and cleans float-corrupted cell digits.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Conflict Resolution</h3>
+                    <p>Resolves conflicting personal records based on proven, customizable source priorities.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- 2. SPLIT WORKSPACE DASHBOARD -->
+    <div id="workspace-container" class="workspace-container" style="display: none;">
+        <header class="app-header">
+            <div class="header-content">
+                <div class="logo" id="header-logo-btn">
+                    <i class="fa-solid fa-bolt-lightning logo-icon"></i>
+                    <span class="logo-text">Multi-Source <span class="accent-text">Candidate Data Transformer</span></span>
+                </div>
+                <div class="badge">
+                    <span class="badge-dot"></span> Active Session
+                </div>
+            </div>
+        </header>
+
+        <div class="dashboard-layout">
+            <!-- LEFT PANEL: INPUT CONTROLS -->
+            <aside class="sidebar-inputs">
+                <div class="panel-header">
+                    <h2><i class="fa-solid fa-sliders"></i> Configuration</h2>
+                    <p>Set up sources and targets</p>
+                </div>
+
+                <form id="transform-form" enctype="multipart/form-data">
+                    <!-- Dropzones stack -->
+                    <div class="upload-stack">
+                        <!-- Resume PDF/DOCX -->
+                        <div class="file-upload-box">
+                            <label class="field-label"><i class="fa-solid fa-file-pdf icon-pdf"></i> Resume (PDF / DOCX)</label>
+                            <div class="drop-zone" id="drop-zone-resume">
+                                <span class="drop-zone-text">Drag PDF/DOCX here or browse</span>
+                                <input type="file" name="resume_file" id="resume_file" accept=".pdf,.docx" class="drop-zone-input" multiple>
+                            </div>
+                            <div id="resume-file-list" class="file-list-preview"></div>
+                        </div>
+
+                        <!-- CSV Recruiter File -->
+                        <div class="file-upload-box">
+                            <label class="field-label"><i class="fa-solid fa-file-csv icon-csv"></i> Recruiter CSV</label>
+                            <div class="drop-zone" id="drop-zone-csv">
+                                <span class="drop-zone-text">Drag CSV here or browse</span>
+                                <input type="file" name="csv_file" id="csv_file" accept=".csv" class="drop-zone-input">
+                            </div>
+                        </div>
+
+                        <!-- Recruiter Notes TXT -->
+                        <div class="file-upload-box">
+                            <label class="field-label"><i class="fa-solid fa-file-lines icon-txt"></i> Recruiter Notes (.txt)</label>
+                            <div class="drop-zone" id="drop-zone-txt">
+                                <span class="drop-zone-text">Drag TXT here or browse</span>
+                                <input type="file" name="txt_file" id="txt_file" accept=".txt" class="drop-zone-input" multiple>
+                            </div>
+                            <div id="txt-file-list" class="file-list-preview"></div>
+                        </div>
+                    </div>
+
+                    <!-- GitHub Username -->
+                    <div class="form-group github-group">
+                        <label for="github_username" class="field-label"><i class="fa-brands fa-github"></i> GitHub Usernames</label>
+                        <div style="display: flex; gap: 8px; width: 100%;">
+                            <div class="input-wrapper" style="flex: 1;">
+                                <span class="input-prefix">github.com/</span>
+                                <input type="text" id="github_username" placeholder="e.g. octocat (press Enter to add)" class="text-input">
+                            </div>
+                            <button type="button" id="github-add-btn" class="btn btn-secondary" style="padding: 0 16px; border-radius: 6px; border: 1px solid var(--border-color); background: rgba(255,255,255,0.03); color: var(--text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1rem;" title="Add profile"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                        <div id="github-tags-list" class="file-list-preview" style="margin-top: 8px;"></div>
+                    </div>
+
+                    <!-- Projection Output Mode -->
+                    <div class="form-group config-group">
+                        <div class="config-toggle-bar">
+                            <label class="field-label"><i class="fa-solid fa-gears"></i> Output Mode</label>
+                            <div class="mode-toggle-group">
+                                <button type="button" class="mode-toggle-btn active" id="mode-standard-btn"><i class="fa-solid fa-file-invoice"></i> Standard</button>
+                                <button type="button" class="mode-toggle-btn" id="mode-custom-btn"><i class="fa-solid fa-code-branch"></i> Custom</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Form actions -->
+                    <div class="actions-panel">
+                        <button type="button" id="reset-form-btn" class="btn btn-secondary"><i class="fa-solid fa-trash-can"></i> Reset</button>
+                        <button type="submit" id="submit-btn" class="btn btn-primary"><i class="fa-solid fa-rotate-right"></i> Synthesize</button>
+                    </div>
+
+                    <!-- Hidden config input for pipeline controller -->
+                    <textarea id="config_text" name="config_text" style="display: none;"></textarea>
+
+                    <div id="custom-config-container" style="display: none; margin-top: 24px; border-top: 1px dashed var(--border-color); padding-top: 20px;">
+                        <div class="config-section-title">Select Fields & Rename Target Mapping</div>
+                        
+                        <div class="custom-fields-list">
+                            <!-- Name -->
+                            <div class="custom-field-row">
+                                <label class="checkbox-label-wrapper">
+                                    <input type="checkbox" class="field-select-check" checked data-field="candidate_name">
+                                    <span class="checkbox-custom-label">Candidate Name</span>
+                                </label>
+                                <div class="rename-input-box">
+                                    <span class="rename-prefix">Rename to:</span>
+                                    <input type="text" class="field-rename-input" data-field="candidate_name" value="candidate_name">
+                                </div>
+                            </div>
+
+                            <!-- Emails -->
+                            <div class="custom-field-row">
+                                <label class="checkbox-label-wrapper">
+                                    <input type="checkbox" class="field-select-check" checked data-field="contact_emails">
+                                    <span class="checkbox-custom-label">Emails</span>
+                                </label>
+                                <div class="rename-input-box">
+                                    <span class="rename-prefix">Rename to:</span>
+                                    <input type="text" class="field-rename-input" data-field="contact_emails" value="contact_emails">
+                                </div>
+                            </div>
+
+                            <!-- Phones -->
+                            <div class="custom-field-row">
+                                <label class="checkbox-label-wrapper">
+                                    <input type="checkbox" class="field-select-check" checked data-field="contact_numbers">
+                                    <span class="checkbox-custom-label">Phones</span>
+                                </label>
+                                <div class="rename-input-box">
+                                    <span class="rename-prefix">Rename to:</span>
+                                    <input type="text" class="field-rename-input" data-field="contact_numbers" value="contact_numbers">
+                                </div>
+                            </div>
+
+                            <!-- Country -->
+                            <div class="custom-field-row">
+                                <label class="checkbox-label-wrapper">
+                                    <input type="checkbox" class="field-select-check" checked data-field="country">
+                                    <span class="checkbox-custom-label">Country</span>
+                                </label>
+                                <div class="rename-input-box">
+                                    <span class="rename-prefix">Rename to:</span>
+                                    <input type="text" class="field-rename-input" data-field="country" value="country">
+                                </div>
+                            </div>
+
+                            <!-- Skills -->
+                            <div class="custom-field-row">
+                                <label class="checkbox-label-wrapper">
+                                    <input type="checkbox" class="field-select-check" checked data-field="skills">
+                                    <span class="checkbox-custom-label">Tech Skills</span>
+                                </label>
+                                <div class="rename-input-box">
+                                    <span class="rename-prefix">Rename to:</span>
+                                    <input type="text" class="field-rename-input" data-field="skills" value="skills">
+                                </div>
+                            </div>
+
+                            <!-- Experience -->
+                            <div class="custom-field-row">
+                                <label class="checkbox-label-wrapper">
+                                    <input type="checkbox" class="field-select-check" checked data-field="experience">
+                                    <span class="checkbox-custom-label">Work History</span>
+                                </label>
+                                <div class="rename-input-box">
+                                    <span class="rename-prefix">Rename to:</span>
+                                    <input type="text" class="field-rename-input" data-field="experience" value="experience">
+                                </div>
+                            </div>
+
+                            <!-- Education -->
+                            <div class="custom-field-row">
+                                <label class="checkbox-label-wrapper">
+                                    <input type="checkbox" class="field-select-check" checked data-field="education">
+                                    <span class="checkbox-custom-label">Education</span>
+                                </label>
+                                <div class="rename-input-box">
+                                    <span class="rename-prefix">Rename to:</span>
+                                    <input type="text" class="field-rename-input" data-field="education" value="education">
+                                </div>
+                            </div>
+
+                            <!-- Confidence -->
+                            <div class="custom-field-row">
+                                <label class="checkbox-label-wrapper">
+                                    <input type="checkbox" class="field-select-check" checked data-field="overall_confidence">
+                                    <span class="checkbox-custom-label">Confidence</span>
+                                </label>
+                                <div class="rename-input-box">
+                                    <span class="rename-prefix">Rename to:</span>
+                                    <input type="text" class="field-rename-input" data-field="overall_confidence" value="overall_confidence">
+                                </div>
+                            </div>
+
+                            <!-- Provenance -->
+                            <div class="custom-field-row">
+                                <label class="checkbox-label-wrapper">
+                                    <input type="checkbox" class="field-select-check" checked data-field="data_provenance">
+                                    <span class="checkbox-custom-label">Provenance</span>
+                                </label>
+                                <div class="rename-input-box">
+                                    <span class="rename-prefix">Rename to:</span>
+                                    <input type="text" class="field-rename-input" data-field="data_provenance" value="data_provenance">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="custom-extra-settings">
+                            <div class="setting-row">
+                                <label class="setting-label">Missing Behavior:</label>
+                                <select id="setting-missing-behavior" class="setting-select">
+                                    <option value="null" selected>Set to Null</option>
+                                    <option value="omit">Omit Field</option>
+                                    <option value="error">Throw 400 Error</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="config-header" style="margin-top: 14px; margin-bottom: 0;">
+                            <div class="config-actions" style="margin-left: auto;">
+                                <input type="file" id="config_file" name="config_file" accept=".json" style="display:none">
+                                <button type="button" class="btn btn-sm btn-outline" onclick="document.getElementById('config_file').click()"><i class="fa-solid fa-file-import"></i> Upload JSON Config</button>
+                            </div>
+                        </div>
+                        <span class="config-file-badge" id="config-file-badge" style="display:none; margin-top: 6px;"></span>
+                    </div>
+                </form>
+            </aside>
+
+            <!-- RIGHT PANEL: DASHBOARD VISUALIZATIONS -->
+            <main class="dashboard-results">
+                <!-- IDLE PLACEHOLDER STATE -->
+                <div id="idle-state" class="idle-state card">
+                    <div class="idle-graphic">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h2>Synthesis Engine Ready</h2>
+                    <p>Provide candidate resources (resumes, csv rows, recruiter notes) or link their GitHub account on the left configuration panel, then click <strong>Synthesize</strong> to start the pipeline.</p>
+                </div>
+
+                <!-- ACTIVE RESULTS STATE -->
+                <section class="card output-section-panel" id="results-panel" style="display: none;">
+                    <div class="results-header">
+                        <h2 class="section-title"><i class="fa-solid fa-square-poll-horizontal"></i> Candidate Output</h2>
+                        <div class="results-top-actions">
+                            <button id="download-btn" class="btn btn-primary btn-sm"><i class="fa-solid fa-download"></i> Download JSON</button>
+                            <button id="reset-results-btn" class="btn btn-secondary btn-sm"><i class="fa-solid fa-arrow-rotate-left"></i> Reset Output</button>
+                        </div>
+                    </div>
+
+                    <!-- Header Tab Selectors -->
+                    <div class="results-tabs-wrapper">
+                        <div class="results-tabs">
+                            <button type="button" class="tab-btn active" id="tab-visual-btn"><i class="fa-solid fa-address-card"></i> Visual Profile</button>
+                            <button type="button" class="tab-btn" id="tab-json-btn"><i class="fa-solid fa-code"></i> Raw JSON</button>
+                            <button type="button" class="tab-btn" id="tab-logs-btn"><i class="fa-solid fa-terminal"></i> System Logs</button>
+                        </div>
+                    </div>
+
+                    <!-- Candidate Selector Dropdown -->
+                    <div id="candidate-selector-wrapper" class="candidate-selector-wrapper" style="display: none;">
+                        <label for="candidate-select-dropdown" class="candidate-select-label"><i class="fa-solid fa-users"></i> Select Candidate Profile:</label>
+                        <select id="candidate-select-dropdown" class="candidate-dropdown-select"></select>
+                    </div>
+
+                    <!-- Pane 1: Visual CV Layout -->
+                    <div id="pane-visual" class="tab-pane active-pane">
+                        <!-- Stats summaries -->
+                        <div class="summary-grid">
+                            <div class="summary-card status-card">
+                                <div class="summary-card-icon"><i class="fa-solid fa-circle-check text-success"></i></div>
+                                <div class="summary-card-content">
+                                    <span class="summary-card-label">Pipeline Status</span>
+                                    <span class="summary-card-value text-success" id="pipeline-status">Success</span>
+                                </div>
+                            </div>
+
+                            <div class="summary-card">
+                                <div class="summary-card-icon"><i class="fa-solid fa-user"></i></div>
+                                <div class="summary-card-content">
+                                    <span class="summary-card-label">Resolved Name</span>
+                                    <span class="summary-card-value" id="profile-name">-</span>
+                                </div>
+                            </div>
+
+                            <div class="summary-card">
+                                <div class="summary-card-icon" id="confidence-icon-container"><i class="fa-solid fa-gauge-high text-warning"></i></div>
+                                <div class="summary-card-content">
+                                    <span class="summary-card-label">Confidence Rating</span>
+                                    <span class="summary-card-value" id="profile-confidence">0%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Visual Resume layout block -->
+                        <div class="visual-profile-card">
+                            <div class="profile-header-block">
+                                <div class="profile-avatar-circle" id="profile-avatar">DR</div>
+                                <div class="profile-title-details">
+                                    <h3 id="profile-display-name">Candidate Name</h3>
+                                    <p id="profile-display-location"><i class="fa-solid fa-location-dot"></i> Country Location</p>
+                                </div>
+                            </div>
+                            
+                            <div class="profile-body-grid">
+                                <div class="profile-body-col-left">
+                                    <!-- Contacts list widget -->
+                                    <div class="profile-section-widget">
+                                        <h4><i class="fa-solid fa-address-book"></i> Contacts</h4>
+                                        <div id="visual-contacts" class="contact-list-widget">
+                                            <!-- emails & phones go here -->
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Skills pill list widget -->
+                                    <div class="profile-section-widget">
+                                        <h4><i class="fa-solid fa-brain"></i> Tech Skills</h4>
+                                        <div id="visual-skills" class="skills-wrap-widget">
+                                            <!-- skills capsules go here -->
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="profile-body-col-right">
+                                    <!-- Experience timeline widget -->
+                                    <div class="profile-section-widget" id="widget-experience">
+                                        <h4><i class="fa-solid fa-briefcase"></i> Work History</h4>
+                                        <div id="visual-experience" class="timeline-widget">
+                                            <!-- experience entries go here -->
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Education list widget -->
+                                    <div class="profile-section-widget" id="widget-education">
+                                        <h4><i class="fa-solid fa-graduation-cap"></i> Education</h4>
+                                        <div id="visual-education" class="education-list-widget">
+                                            <!-- education entries go here -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pane 2: Raw Projected JSON -->
+                    <div id="pane-json" class="tab-pane" style="display: none;">
+                        <div class="panel-header-sub">
+                            <span><i class="fa-solid fa-code"></i> Projected Canonical JSON</span>
+                            <button class="btn btn-sm btn-outline-copy" id="copy-json-btn"><i class="fa-solid fa-copy"></i> Copy JSON</button>
+                        </div>
+                        <div class="json-viewer-container">
+                            <pre><code id="json-output" class="language-json"></code></pre>
+                        </div>
+                    </div>
+
+                    <!-- Pane 3: System Logs terminal console -->
+                    <div id="pane-logs" class="tab-pane" style="display: none;">
+                        <div class="panel-header-sub">
+                            <span><i class="fa-solid fa-terminal"></i> Execution Logs</span>
+                            <button class="btn btn-sm btn-outline-copy" id="clear-logs-btn"><i class="fa-solid fa-broom"></i> Clear Console</button>
+                        </div>
+                        <div class="logs-terminal" id="logs-output">
+                            <!-- logs printed here -->
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- Toast message overlay -->
+    <div id="toast" class="toast"></div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

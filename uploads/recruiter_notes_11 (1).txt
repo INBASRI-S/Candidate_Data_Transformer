@@ -1,0 +1,75 @@
+
+Recruiter Notes
+
+C001 - Aarav Sharma
+Status: Shortlisted
+Notes: Strong backend engineer. Good Java, Spring Boot, REST APIs.
+
+------------------------------------------------------------
+
+C002 - Priya Nair
+Status: Shortlisted
+Notes: Excellent SQL, Power BI and analytical skills.
+
+------------------------------------------------------------
+
+C003 - Rohit Verma
+Status: Hold
+Notes: Strong AI foundation. Needs more production exposure.
+
+------------------------------------------------------------
+
+C004 - Sneha Reddy
+Status: Shortlisted
+Notes: Good React, FastAPI and API design skills.
+
+------------------------------------------------------------
+
+C005 - Arjun Patel
+Status: Shortlisted
+Notes: Strong ML, TensorFlow and PyTorch knowledge.
+
+------------------------------------------------------------
+
+C006 - Dhayanandham R
+Status: Highly Recommended
+Notes:
+- AI & Data Science student.
+- Strong in Python, FastAPI, Flask, TensorFlow, PyTorch, Kafka, Docker and PostgreSQL.
+- Built TraceChild, Uzhavar Kaappaan, AI Data Quality Guardian, EcoPulse AI and Voice RAG Assistant.
+- Suitable for AI Engineer, Backend AI Developer or Data Engineer internship.
+
+------------------------------------------------------------
+
+C007 - Meera Iyer
+Status: Shortlisted
+Notes: Python backend developer with PostgreSQL.
+
+------------------------------------------------------------
+
+C008 - Vikram Singh
+Status: Hold
+Notes: Good AWS knowledge. Assess Kubernetes in technical interview.
+
+------------------------------------------------------------
+
+C009 - Ananya Gupta
+Status: Shortlisted
+Notes: Strong NLP, LLM and Generative AI profile.
+
+------------------------------------------------------------
+
+C010 - Karan Joshi
+Status: Shortlisted
+Notes: Excellent DevOps profile with Docker and Terraform.
+
+------------------------------------------------------------
+
+C011 - INBASRI S
+Status: Highly Recommended
+Notes:
+- B.E Computer Science and Technology student (CGPA 8.8).
+- Strong MERN Stack developer.
+- Built AI-Based Legal Document Analysis System using Gemini API.
+- Built MERN Hotel Booking Application.
+- Suitable for Full Stack Developer or Software Engineer internship.

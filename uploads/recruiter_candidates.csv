@@ -1,0 +1,11 @@
+candidate_id,full_name,email,phone,current_company,title,city,state,country,github_username,resume_file,ats_json,recruiter_notes
+C001,Aarav Sharma,aarav.sharma@gmail.com,+919876543210,TCS,Software Engineer,Bangalore,Karnataka,India,aaravsharma,resume_aarav.pdf,ats_aarav.json,Strong backend developer with Java and Spring Boot.
+C002,Priya Nair,priya.nair@gmail.com,+919845612378,Infosys,Data Analyst,Kochi,Kerala,India,priyanair,resume_priya.pdf,ats_priya.json,Excellent SQL and Power BI skills.
+C003,Rohit Verma,rohit.verma@gmail.com,+919998887766,Wipro,AI Engineer,Hyderabad,Telangana,India,rohitverma,resume_rohit.pdf,ats_rohit.json,Worked on Computer Vision and NLP projects.
+C004,Sneha Reddy,sneha.reddy@gmail.com,+919876501234,Accenture,Full Stack Developer,Chennai,Tamil Nadu,India,snehareddy,resume_sneha.pdf,ats_sneha.json,React and FastAPI developer with cloud experience.
+C005,Arjun Patel,arjun.patel@gmail.com,+919845678912,Cognizant,Machine Learning Engineer,Pune,Maharashtra,India,arjunpatel,resume_arjun.pdf,ats_arjun.json,"Experienced in TensorFlow, PyTorch and MLOps."
+C006,Dhayanandham R,dhayanandham361@gmail.com,+918778683374,,B.Tech Artificial Intelligence and Data Science,Coimbatore,Tamil Nadu,India,Dhayanandham123,Dhayanandham R.pdf,ats_dhayanandham.json,"Strong AI/ML student with Flask, FastAPI, TensorFlow, PyTorch, Kafka, Docker, Streamlit, Computer Vision and RAG experience. CGPA 8.5. Multiple AI hackathons and production-level academic projects."
+C007,Meera Iyer,meera.iyer@gmail.com,+919876543890,Zoho,Backend Developer,Chennai,Tamil Nadu,India,meeraiyer,resume_meera.pdf,ats_meera.json,Excellent Python developer with PostgreSQL knowledge.
+C008,Vikram Singh,vikram.singh@gmail.com,+919823456789,HCL Technologies,Cloud Engineer,Noida,Uttar Pradesh,India,vikramsingh,resume_vikram.pdf,ats_vikram.json,AWS Certified with Kubernetes experience.
+C009,Ananya Gupta,ananya.gupta@gmail.com,+919887766554,IBM,Data Scientist,Gurgaon,Haryana,India,ananyagupta,resume_ananya.pdf,ats_ananya.json,"Strong NLP, LLM and Generative AI background."
+C010,Karan Joshi,karan.joshi@gmail.com,+919812345678,Capgemini,DevOps Engineer,Mumbai,Maharashtra,India,karanjoshi,resume_karan.pdf,ats_karan.json,"CI/CD, Docker, Kubernetes and Terraform specialist."

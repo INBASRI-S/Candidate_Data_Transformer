@@ -1,0 +1,69 @@
+Recruiter Notes - Candidate Screening
+
+Candidate ID: C001 Name: Aarav Sharma Status: Shortlisted Notes: -
+Strong Java and Spring Boot fundamentals. - Good communication skills. -
+Suitable for Backend Engineer role. - Verify notice period during HR
+round.
+
+------------------------------------------------------------------------
+
+Candidate ID: C002 Name: Priya Nair Status: Shortlisted Notes: -
+Excellent SQL and Power BI knowledge. - Good analytical thinking. -
+Suitable for Data Analyst role.
+
+------------------------------------------------------------------------
+
+Candidate ID: C003 Name: Rohit Verma Status: Hold Notes: - Strong AI and
+Computer Vision experience. - Limited production experience. - Consider
+for AI Engineer internship.
+
+------------------------------------------------------------------------
+
+Candidate ID: C004 Name: Sneha Reddy Status: Shortlisted Notes: - Strong
+React and FastAPI skills. - Good understanding of REST APIs. - Suitable
+for Full Stack Developer role.
+
+------------------------------------------------------------------------
+
+Candidate ID: C005 Name: Arjun Patel Status: Shortlisted Notes: -
+Excellent Machine Learning fundamentals. - Experience with TensorFlow
+and PyTorch. - Good candidate for ML Engineer role.
+
+------------------------------------------------------------------------
+
+Candidate ID: C006 Name: Dhayanandham R Status: Highly Recommended
+Notes: - Final year B.Tech Artificial Intelligence and Data Science
+student. - Strong practical experience through multiple AI and data
+engineering projects. - Demonstrates proficiency in Python, Java, SQL,
+FastAPI, Flask, TensorFlow, PyTorch, Kafka, Docker, Streamlit, and
+PostgreSQL. - Built projects involving Computer Vision, RAG, Multi-Agent
+AI Systems, Data Quality Engineering, and Real-Time Streaming
+Analytics. - Participated in multiple hackathons and shows strong
+problem-solving ability. - Good communication and presentation skills. -
+Recommended for AI Engineer, Data Engineer, or Backend AI Developer
+internship roles. - Discuss project architecture and system design
+during the technical interview.
+
+------------------------------------------------------------------------
+
+Candidate ID: C007 Name: Meera Iyer Status: Shortlisted Notes: - Strong
+Python and PostgreSQL skills. - Good backend development knowledge. -
+Recommend technical interview.
+
+------------------------------------------------------------------------
+
+Candidate ID: C008 Name: Vikram Singh Status: Hold Notes: - Good cloud
+fundamentals. - Strong AWS knowledge. - Assess Kubernetes skills
+further.
+
+------------------------------------------------------------------------
+
+Candidate ID: C009 Name: Ananya Gupta Status: Shortlisted Notes: -
+Strong NLP and Generative AI knowledge. - Suitable for LLM-related
+projects.
+
+------------------------------------------------------------------------
+
+Candidate ID: C010 Name: Karan Joshi Status: Shortlisted Notes: -
+Excellent DevOps profile. - Strong Docker, Kubernetes and CI/CD
+experience. - Good fit for Platform Engineering roles.

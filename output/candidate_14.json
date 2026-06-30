@@ -1,0 +1,214 @@
+{
+  "candidate_name": "Alex Mercer",
+  "first_name": "Alex",
+  "last_name": "Mercer",
+  "contact_emails": [
+    "alex.mercer@gmail.com"
+  ],
+  "contact_numbers": [
+    "+15550192834"
+  ],
+  "skills": [
+    "AWS",
+    "Agile",
+    "CSS",
+    "Docker",
+    "FastAPI",
+    "Git",
+    "HTML",
+    "JavaScript",
+    "Kubernetes",
+    "PostgreSQL",
+    "Python",
+    "SQL",
+    "TypeScript"
+  ],
+  "education": [
+    {
+      "institution": "University of Toronto",
+      "degree": "Bachelor of Science",
+      "field_of_study": null,
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "institution": "University of Toronto",
+      "degree": "Bachelor of Science in Computer Science, 2018 - 2022",
+      "field_of_study": "Computer Science, 2018 - 2022",
+      "start_date": "2018-01-01",
+      "end_date": "2022-01-01"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Innovate LLC",
+      "title": "Intern Developer",
+      "start_date": null,
+      "end_date": null,
+      "description": "Assisted in building Python backend applications."
+    }
+  ],
+  "country": "Canada",
+  "overall_confidence": 0.8852,
+  "field_confidences": {
+    "full_name": 1.0,
+    "country": 0.92,
+    "emails": 0.95,
+    "phones": 0.8,
+    "skills": 0.8115384615384614,
+    "education": 0.85,
+    "experience": 0.8
+  },
+  "provenance": [
+    {
+      "field_path": "full_name",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "first_name",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "last_name",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "country",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "emails.alex.mercer@gmail.com",
+      "source_type": "csv",
+      "source_detail": "recruiter.csv"
+    },
+    {
+      "field_path": "emails.alex.mercer@gmail.com",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "emails.alex.mercer@gmail.com",
+      "source_type": "txt",
+      "source_detail": "notes.txt"
+    },
+    {
+      "field_path": "skills.AWS",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "skills.Agile",
+      "source_type": "txt",
+      "source_detail": "notes.txt"
+    },
+    {
+      "field_path": "skills.CSS",
+      "source_type": "csv",
+      "source_detail": "recruiter.csv"
+    },
+    {
+      "field_path": "skills.Docker",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "skills.Docker",
+      "source_type": "txt",
+      "source_detail": "notes.txt"
+    },
+    {
+      "field_path": "skills.FastAPI",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "skills.FastAPI",
+      "source_type": "txt",
+      "source_detail": "notes.txt"
+    },
+    {
+      "field_path": "skills.Git",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "skills.HTML",
+      "source_type": "csv",
+      "source_detail": "recruiter.csv"
+    },
+    {
+      "field_path": "skills.JavaScript",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "skills.Kubernetes",
+      "source_type": "txt",
+      "source_detail": "notes.txt"
+    },
+    {
+      "field_path": "skills.PostgreSQL",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "skills.PostgreSQL",
+      "source_type": "txt",
+      "source_detail": "notes.txt"
+    },
+    {
+      "field_path": "skills.Python",
+      "source_type": "csv",
+      "source_detail": "recruiter.csv"
+    },
+    {
+      "field_path": "skills.Python",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "skills.Python",
+      "source_type": "txt",
+      "source_detail": "notes.txt"
+    },
+    {
+      "field_path": "skills.SQL",
+      "source_type": "csv",
+      "source_detail": "recruiter.csv"
+    },
+    {
+      "field_path": "skills.TypeScript",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "education.University of Toronto",
+      "source_type": "csv",
+      "source_detail": "recruiter.csv"
+    },
+    {
+      "field_path": "education.University of Toronto",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "education.University of Toronto",
+      "source_type": "csv",
+      "source_detail": "recruiter.csv"
+    },
+    {
+      "field_path": "education.University of Toronto",
+      "source_type": "resume",
+      "source_detail": "resume.docx"
+    },
+    {
+      "field_path": "experience.Innovate LLC",
+      "source_type": "csv",
+      "source_detail": "recruiter.csv"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "full_name": "Vikram Singh",
+  "first_name": "Vikram",
+  "last_name": "Singh",
+  "emails": [
+    "vikram.singh@gmail.com"
+  ],
+  "phones": [
+    "+919823000000"
+  ],
+  "skills": null,
+  "education": null,
+  "experience": null,
+  "country": "India",
+  "overall_confidence": 0.4825,
+  "field_confidences": {
+    "full_name": 0.8,
+    "country": 0.7,
+    "emails": 0.85,
+    "phones": 0.8,
+    "skills": 0.0,
+    "education": 0.0,
+    "experience": 0.0
+  },
+  "provenance": [
+    {
+      "field_path": "full_name",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_updated.csv"
+    },
+    {
+      "field_path": "first_name",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_updated.csv"
+    },
+    {
+      "field_path": "last_name",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_updated.csv"
+    },
+    {
+      "field_path": "country",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_updated.csv"
+    },
+    {
+      "field_path": "emails.vikram.singh@gmail.com",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_updated.csv"
+    }
+  ]
+}

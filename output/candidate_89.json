@@ -1,0 +1,24 @@
+{
+  "candidate_name": "Alex Mercer",
+  "contact_emails": [
+    "alex.mercer@gmail.com"
+  ],
+  "contact_numbers": [
+    "+15550192834"
+  ],
+  "skills": [
+    "AWS",
+    "Agile",
+    "CSS",
+    "Docker",
+    "FastAPI",
+    "Git",
+    "HTML",
+    "JavaScript",
+    "Kubernetes",
+    "PostgreSQL",
+    "Python",
+    "SQL",
+    "TypeScript"
+  ]
+}

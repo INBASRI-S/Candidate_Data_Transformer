@@ -1,0 +1,41 @@
+{
+  "candidate_name": "Arjun Patel",
+  "contact_emails": [
+    "arjun.patel@gmail.com"
+  ],
+  "contact_numbers": [
+    "+919845678912"
+  ],
+  "country": "India",
+  "skills": null,
+  "experience": null,
+  "education": null,
+  "overall_confidence": 0.4825,
+  "data_provenance": [
+    {
+      "field_path": "full_name",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_final.csv"
+    },
+    {
+      "field_path": "first_name",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_final.csv"
+    },
+    {
+      "field_path": "last_name",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_final.csv"
+    },
+    {
+      "field_path": "country",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_final.csv"
+    },
+    {
+      "field_path": "emails.arjun.patel@gmail.com",
+      "source_type": "csv",
+      "source_detail": "recruiter_candidates_final.csv"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "candidate_name": "Dhayanandham",
+  "contact_emails": null,
+  "contact_numbers": null,
+  "country": null,
+  "skills": [
+    "HTML",
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "experience": null,
+  "education": null,
+  "overall_confidence": 0.3,
+  "data_provenance": [
+    {
+      "field_path": "full_name",
+      "source_type": "github",
+      "source_detail": "GitHub username: Dhayanandham123"
+    },
+    {
+      "field_path": "first_name",
+      "source_type": "github",
+      "source_detail": "GitHub username: Dhayanandham123"
+    },
+    {
+      "field_path": "skills.HTML",
+      "source_type": "github",
+      "source_detail": "GitHub username: Dhayanandham123"
+    },
+    {
+      "field_path": "skills.Jupyter Notebook",
+      "source_type": "github",
+      "source_detail": "GitHub username: Dhayanandham123"
+    },
+    {
+      "field_path": "skills.Python",
+      "source_type": "github",
+      "source_detail": "GitHub username: Dhayanandham123"
+    }
+  ]
+}

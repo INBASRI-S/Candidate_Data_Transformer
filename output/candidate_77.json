@@ -1,0 +1,118 @@
+{
+  "candidate_name": "Recruiter Notes",
+  "contact_emails": null,
+  "contact_numbers": null,
+  "country": null,
+  "skills": [
+    "AWS",
+    "Docker",
+    "FastAPI",
+    "Flask",
+    "Java",
+    "Kubernetes",
+    "PostgreSQL",
+    "PyTorch",
+    "Python",
+    "REST API",
+    "React",
+    "SQL",
+    "Spring Boot",
+    "TensorFlow",
+    "Terraform"
+  ],
+  "experience": null,
+  "education": null,
+  "overall_confidence": 0.3125,
+  "data_provenance": [
+    {
+      "field_path": "full_name",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "first_name",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "last_name",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.AWS",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.Docker",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.FastAPI",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.Flask",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.Java",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.Kubernetes",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.PostgreSQL",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.PyTorch",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.Python",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.REST API",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.React",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.SQL",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.Spring Boot",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.TensorFlow",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    },
+    {
+      "field_path": "skills.Terraform",
+      "source_type": "txt",
+      "source_detail": "recruiter_notes_11 (1).txt"
+    }
+  ]
+}
